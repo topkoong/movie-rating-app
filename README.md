@@ -29,3 +29,22 @@ Then execute the following to run the app on your local machine:
 
 npm run start-dev
 ```
+
+## How to search a movie?
+
+A Text field is designed for the user to enter search queries into.
+
+User can type a `movie title` into an input text field press enter on input text field to query http://www.omdbapi.com/​ for a movie.
+
+Then, the page will display the movie with relevant data such as poster, title, year, and plot (or a placeholder image if there is no poster)
+
+
+## How to add a movie to your favorite list
+
+After user query a movie, user is able to click an `Add this movie to my favorite list` button
+
+## How to edit movie ratings and add comments?
+
+User can click a `view` button and then click an `edit` button so that he/she can edit/change the movie's rating.
+
+Below `comment` sections, user can also enter a name and content when writing a movie review.
