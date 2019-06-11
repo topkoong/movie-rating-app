@@ -14,3 +14,18 @@ https://nodejs.org/en/download/
 
 ### Installing postgres
 If you're on a Mac, you can head right over to http://postgresapp.com/ and follow the instructions there to get a full-featured installation of postgres, including the psql command line tool. Be sure to follow the set up your $PATH link and follow the instructions there.
+
+Now run the following commands to set up your working directory.
+
+```bash
+createdb movie-rating
+
+npm install
+```
+Then execute the following to run the app on your local machine:
+
+## Getting started
+```bash
+
+npm run start-dev
+```
