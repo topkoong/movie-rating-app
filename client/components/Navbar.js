@@ -28,11 +28,11 @@ class NavBar extends React.Component {
 		};
 	}
 	toggle() {
-    this.setState(prevState => {
-      return {
-        isOpen: !prevState.isOpen
-      }
-    });
+		this.setState(prevState => {
+			return {
+				isOpen: !prevState.isOpen
+			};
+		});
 	}
 	render() {
 		return (
@@ -50,6 +50,7 @@ class NavBar extends React.Component {
 							<NavItem>
 								<a
 									classNamme="nav-link"
+									target="_blank"
 									href="https://github.com/topkoong/movie-rating-app"
 									style={linkStyle}
 								>
