@@ -44,8 +44,10 @@ app.use((err, req, res, next) => {
 });
 
 db.sync().then(() => {
-  console.log('db synced');
-  app.listen(PORT, () => console.log(`studiously serving silly sounds on port ${PORT}`));
+	console.log('db synced');
+	app.listen(PORT, () =>
+		console.log(`studiously serving silly sounds on port ${PORT}`)
+	);
 });
 
 module.exports = app;
