@@ -49,9 +49,7 @@ class Home extends Component {
 			'https://stainedglassbnb.com/wp-content/uploads/2016/09/placeholder-625x375.jpg';
 	}
 	handleMovieTitleChange(event) {
-		this.setState({
-			movieTitle: event.target.value
-		});
+		this.setState({ movieTitle: event.target.value });
 	}
 	async handleMovieTitleSubmit(event) {
 		event.preventDefault();
@@ -61,10 +59,7 @@ class Home extends Component {
 				this.state.movieTitle
 			}&plot=full&r=json`
 		);
-		this.setState({
-			movieTitle: '',
-			movie: data
-		});
+		this.setState({ movieTitle: '', movie: data });
 	}
 
 	addMovieToFavoriteList() {

@@ -58,14 +58,12 @@ class Movie extends Component {
 	// Handles selected ratings when ratings are clicked.
 
 	handleRatingsClick(nextValue, prevValue, name) {
-		this.setState(
-			state => {
-				return {
-					ratings: nextValue,
-					editRatings: !state.editRatings
-				};
-			},
-			() => {
+		this.setState(prevState => {
+      return {
+        ratings: nextValue,
+        editRatings: !prevState.editRatings
+      };
+    },() => {
 				const movieId = this.props.match.params.id;
 				const { ratings } = this.state;
 				const updatedRatings = {
@@ -79,8 +77,8 @@ class Movie extends Component {
 	// Triggers an edit ratings mode
 
 	handleEditRating() {
-		this.setState(state => ({
-			editRatings: !state.editRatings
+		this.setState(prevState => ({
+			editRatings: !prevState.editRatings
 		}));
 	}
 
