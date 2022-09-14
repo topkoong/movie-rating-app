@@ -20,7 +20,7 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^3.0.0",
     "dotenv": "^8.0.0",
-    "nodemon": "^1.19.1",
+    "nodemon": "^2.0.19",
     "redux-devtools-extension": "^2.13.8",
     "style-loader": "^0.23.1",
     "webpack": "^4.33.0",
