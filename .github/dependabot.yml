@@ -9,9 +9,11 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
-      time: "10:00"
-    open-pull-requests-limit: 10
-    labels:
-      - "npm"
-      - "dependencies"
+      interval: "daily"
+    open-pull-requests-limit: 25
+    
+  - package-ecosystem: 'github-actions' # See documentation for possible values
+    directory: '/' # Location of package manifests
+    open-pull-requests-limit: 25
+    schedule:
+      interval: 'daily'
