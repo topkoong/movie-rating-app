@@ -35,8 +35,8 @@ jobs:
       - name: Installing Dependencies
         run: npm install
 
-      - name: Build
-        run: npm run build-client
+#       - name: Build
+#         run: npm run build-client
 
   dependabot:
       name: 'Dependabot'
