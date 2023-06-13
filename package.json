@@ -35,7 +35,7 @@
     "pg-hstore": "^2.3.4",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-redux": "^8.0.7",
+    "react-redux": "^8.1.0",
     "react-router-dom": "^6.12.1",
     "react-star-rating-component": "^1.4.1",
     "reactstrap": "^9.2.0",
