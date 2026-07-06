@@ -23,7 +23,7 @@
     "nodemon": "^3.1.14",
     "redux-devtools-extension": "^2.13.9",
     "style-loader": "^4.0.0",
-    "webpack": "^5.108.3",
+    "webpack": "^5.108.4",
     "webpack-cli": "^7.2.1"
   },
   "dependencies": {
